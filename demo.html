@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script> -->
+    <script src="../jquery.min.js"></script>
+</head>
+<body>
+    <div id="test">
+        <ul>
+            <li class="oLi" id="te">1</li>
+            <li class="oLi">2</li>
+            <li class="oLi">3</li>
+            <li class="oLi">4</li>
+            <li class="oLi">5</li>
+        </ul>
+    </div>
+    <script>
+        $("#test").find(".oLi").eq(2).remove();
+    </script>
+</body>
+</html>
